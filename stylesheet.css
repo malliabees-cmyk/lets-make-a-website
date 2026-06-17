@@ -1,0 +1,65 @@
+/* ===== VARIABLES ===== */
+
+:root {
+  --background: #fdf6ec;
+  --text: #222222;
+  --accent: #006d77;
+  --secondary: #ba5624;
+}
+
+/* ===== GLOBAL STYLES ===== */
+
+body {
+  font-family: Georgia, serif;
+  background-color: var(--background);
+  color: var(--text);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ===== TYPOGRAPHY ===== */
+
+h1, h2, h3 {
+  color: var(--accent);
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== LAYOUT ===== */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ===== HEADER ===== */
+
+header {
+  padding: 1rem;
+}
+
+/* ===== NAVIGATION ===== */
+
+nav {
+  padding: 1rem 0;
+}
+
+/* ===== MAIN CONTENT ===== */
+
+main {
+  padding: 2rem 0;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+  padding: 2rem;
+}
